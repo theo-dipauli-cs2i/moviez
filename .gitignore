@@ -1,0 +1,7 @@
+# Files/folders to ignore
+.env
+docker.conf/maria.env
+docker.conf/postgres.env
+
+# Exclude Bootstrap and other libraries
+vendor
