@@ -12,11 +12,10 @@
     include "includes/navigation.php";
 
     include_once 'data/configuration.php';
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);
 
+    $id = $_GET['id'];
     $requeteFilms = <<< SQL
-            SELECT titre, p.pays AS "pays", annee, affiche
+            SELECT id,titre, p.pays AS "pays", annee, affiche
             FROM films f
             INNER JOIN pays p ON f.codepays = p.codepays
             ORDER BY titre;
@@ -48,8 +47,10 @@
                 <tbody>
                     <?php foreach ($donnees as $film): ?>
                         <tr>
-                            <td><img class="img-fluid" style="max-width: 100px;" src="<?= $film->affiche ?>" alt=""></td>
-                            <td><?= $film->titre ?></td>
+                            <td><img class="img-fluid" style="max-width: 100px;" src="<?= $film->affiche ?>" alt=""><a class="text-decoration-none" href="film-detail.php?id=<?= $film->id ?>">
+                                <?= $film->titre ?>
+                            </a></td>
+                            
                             <td><?= $film->annee ?></td>
                             <td><?= $film->pays ?></td>
                         </tr>
