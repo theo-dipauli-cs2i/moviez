@@ -157,8 +157,7 @@
 
             </div>
         </div>
-        <button type="button" class="btn btn-primary" onclick="window.location.href='films_liste.php'"><i class="bi bi-arrow-left"></i></button>
-
+        <a href="films_liste.php" class="btn btn-primary" role="button"><i class="bi bi-arrow-left"></i></a>
     </div>
 
 

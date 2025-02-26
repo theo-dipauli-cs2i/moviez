@@ -98,7 +98,7 @@
                 </div>
 
                 <div class="text-center">
-                    <button type="button" class="btn btn-outline-warning m-5 btn-lg" onclick="window.location.href='films_liste.php'"><i class="bi bi-film"></i> Tous les films</button>
+                    <a href="films_liste.php" class="btn btn-outline-warning m-5 btn-lg" role="button"><i class="bi bi-film"></i> Tous les films</a>
                 </div>
 
 
