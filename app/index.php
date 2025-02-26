@@ -75,9 +75,9 @@
                 </div>
 
                 <div class="text-center">
-                <button type="button" class="btn btn-outline-warning m-5 btn-lg"><i class="bi bi-film"></i> Tous les films</button>
+                    <button type="button" class="btn btn-outline-warning m-5 btn-lg" onclick="window.location.href='films_liste.php'" ><i class="bi bi-film"></i> Tous les films</button>
                 </div>
-                
+
 
                 <h2><i class="bi bi-person-circle"></i> Acteurs en vue</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo voluptas, officiis cumque molestias unde nostrum deleniti voluptatum a. Doloremque, sint odit? Laboriosam, obcaecati voluptatem porro esse tenetur rem nihil ad tempore laborum nisi accusantium blanditiis cupiditate eum placeat eos labore harum dolore amet aut animi illo exercitationem. Saepe, sunt provident repudiandae autem quasi quisquam recusandae enim atque cumque vitae soluta minus animi ut aliquid omnis quo deserunt facere, eaque sequi dolores praesentium corporis sit ducimus! Necessitatibus ducimus corrupti suscipit, eveniet mollitia voluptatibus ad modi quidem quas porro quisquam saepe quia deleniti placeat maiores quaerat aperiam perferendis aliquid consectetur voluptatem.</p>
