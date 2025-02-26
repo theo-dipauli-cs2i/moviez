@@ -35,21 +35,30 @@
                 <div class="carousel-item active">
                     <img src="images/dune_h800.jpg" class="d-block w-100" alt="dune">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1><img class="rounded w-25 mx-2" src="images/dune-logo.jpg" alt="">Denis Villeneuve</h1>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="rounded w-25 mx-2" src="images/dune-logo.jpg" alt="Dune Logo">
+                            <h1 class="mb-0">Denis Villeneuve</h1>
+                        </div>
                         <p>Paul atreides & Lady Jessica Atreides</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/dune_bene_gesserit_h800.jpg" class="d-block w-100" alt="dune1">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1><img class="rounded w-25 mx-2" src="images/dune-logo.jpg" alt="">Denis Villeneuve</h1>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="rounded w-25 mx-2" src="images/dune-logo.jpg" alt="Dune Logo">
+                            <h1 class="mb-0">Denis Villeneuve</h1>
+                        </div>
                         <p>Paul atreides & Lady Jessica Atreides</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/dune2_h800.jpg" class="d-block w-100" alt="dune2">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1><img class="rounded w-25 mx-2" src="images/dune-logo.jpg" alt="">Denis Villeneuve</h1>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="rounded w-25 mx-2" src="images/dune-logo.jpg" alt="Dune Logo">
+                            <h1 class="mb-0">Denis Villeneuve</h1>
+                        </div>
                         <p>Paul atreides & Lady Jessica Atreides</p>
                     </div>
                 </div>
