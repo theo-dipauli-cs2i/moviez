@@ -138,30 +138,23 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid" src="<?= $film->affiche ?>" alt="">
-                <div class="table-responsive w-auto mx-auto">
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <h3><?= $film->titre ?></h3>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>Année</p>
-                                </td>
-                                <td><?= $film->annee ?></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>Note</p>
-                                </td>
-                                <td><span class="badge bg-success"><?= $film->note ?></span></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="<?= $film->affiche ?>" alt="<?= $film->titre ?>">
+                    <h5 class="card-header"><?= $film->titre ?></h5>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Année
+                                <span class="text-end"><?= $film->annee ?></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Note
+                                <span class="badge bg-success fs-6"><?= $film->note ?></span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
         </div>
         <button type="button" class="btn btn-primary" onclick="window.location.href='films_liste.php'"><i class="bi bi-arrow-left"></i></button>
