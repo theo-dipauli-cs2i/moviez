@@ -69,7 +69,7 @@
             </span>
         </h1>
         <div class="row mb-5">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <div class="table-responsive w-auto mx-auto">
                     <table class="table table-striped">
                         <tbody>
@@ -137,7 +137,7 @@
                     </table>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card">
                     <img class="card-img-top img-fluid" src="<?= $film->affiche ?>" alt="<?= $film->titre ?>">
                     <h5 class="card-header"><?= $film->titre ?></h5>
@@ -146,7 +146,6 @@
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 Année
                                 <span class="text-end"><?= $film->annee ?></span>
-                            </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 Note
                                 <span class="badge bg-success fs-6"><?= $film->note ?></span>
